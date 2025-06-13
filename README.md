@@ -36,7 +36,7 @@ A representation of ten images each corresponding to the ten different labels is
 1. Build a ten-label classifier able to distinguish the galaxies, and evaluate its performance using the most appropriate evaluation metrics
 2. By considering the classifier developed in 1. implement a strategy for inspecting the content of the image for understanding the portions with more discriminant information. In particular, choose one explainability method (e.g., saliency maps, feature map visualization, Grad-CAM, or another interpretable algorithm), and use it to analyze how the model arrived at its decisions
 3. Build an algorithm to efficiently perform an anomaly-detection task by considering some of the classes for training and treating the others as unseen.
-4. Expand upon the algorithm in 3. by considering a perceptual loss as an additionial component to the loss already defined. The perceptual loss does not directly compare two given images in their visual representation but their corresponding feature representations in the latent space of a neural network.
+4. (Optional) Expand upon the algorithm in 3. by considering a perceptual loss as an additionial component to the loss already defined. The perceptual loss does not directly compare two given images in their visual representation but their corresponding feature representations in the latent space of a neural network.
 
 
 ## Expected Deliverables
